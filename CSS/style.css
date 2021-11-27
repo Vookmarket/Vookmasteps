@@ -11,7 +11,18 @@ header
 /******************************************
 main
 *******************************************/
-
+.po_vet{/*ポートフォリオ・獣医師ゾーン*/
+    background-color: lightsalmon;
+}
+.po_coder{/*ポートフォリオ・Web制作ゾーン*/
+    background-color: lightblue;
+}
+.po_entertain{/*ポートフォリオ・エンタメゾーン*/
+    background-color: lightyellow;
+}
+.po_invest{/*ポートフォリオ・資産運用ゾーン*/
+    background-color: gold;
+}
 
 /******************************************
 footer
