@@ -1,12 +1,48 @@
+@charset "utf-8";
 /******************************************
 foundation
 *******************************************/
-
+body{
+    font-family: 'メイリオ','Hiragino Kaku Gothic Pro', sans-serif
+}
 
 /******************************************
 header
 *******************************************/
+/***********
+メインメニュー
+***********/
+/*
+PC用
+*/
+.main-menu ul{
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
 
+.main-menu ul li{
+    float: left;
+    padding: 3px;
+}
+
+.main-menu ul li:hover{
+    background-color: lightgray;
+}
+
+.main-menu ul li a{
+    display: block;
+    padding: 5px;
+    color: gray;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.main-menu ul li a:hover{
+    color: blue
+}
+/*メインメニュー*/
 
 /******************************************
 main
