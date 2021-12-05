@@ -4,7 +4,8 @@ foundation
 *******************************************/
 body{
     font-family: 'メイリオ','Hiragino Kaku Gothic Pro', sans-serif;
-    background: whitesmoke;
+    background: lightgreen;
+    margin: 0 auto;
 }
 
 /******************************************
@@ -15,6 +16,8 @@ header
 */
 /*PC用*/
 .title-logo{
+    margin: 5px 20px;
+    
     font-family: 'Patrick Hand', cursive;
     font-size: 5rem;
 }
@@ -34,6 +37,9 @@ header
 /*
 PC用
 */
+.main-menu{
+    margin-left: 20px;
+}
 .main-menu ul{
     display: block;
     overflow: hidden;
@@ -94,12 +100,12 @@ BoxLayout----------------
 }
 .box2-1{
     float: left;
-    width: 50%;
+    width: 49%;
 }
 
 .box2-2{
     float: left;
-    width: 50%;
+    width: 49%;
 }
 .box2-B{
     display: block;
@@ -107,11 +113,11 @@ BoxLayout----------------
 }
 .box2-3{
     float: left;
-    width: 50%;
+    width: 49%;
 }
 .box2-4{
     float: left;
-    width: 50%;
+    width: 49%;
 }
 /*
 スマホ用
@@ -120,6 +126,8 @@ BoxLayout----------------
     .box2-A{
         display: block;
         clear: both;
+
+        margin-left: 0;
     }
     .box2-1{
         float: none;
@@ -132,6 +140,9 @@ BoxLayout----------------
     .box2-B{
         display: block;
         clear: both;
+
+        margin-left: 0;
+
     }
     .box2-3{
         float: none;
@@ -145,7 +156,18 @@ BoxLayout----------------
 /*********************
 ----------------BoxLayout
 *********************/
+.portfolio{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.po_title{
+    padding: 10px;
+}
+.po_box{
+    margin: 3px;
 
+    border-radius: 10px;
+}
 .po_vet{/*ポートフォリオ・獣医師ゾーン*/
     background-color: lightsalmon;
 }
@@ -158,7 +180,15 @@ BoxLayout----------------
 .po_invest{/*ポートフォリオ・資産運用ゾーン*/
     background-color: gold;
 }
-
+.po_caption{
+    padding-left: 10px;
+    padding-right: 10px;
+}
 /******************************************
 footer
 *******************************************/
+.box3{
+    margin-left: 20px;
+
+    clear: both;
+}
