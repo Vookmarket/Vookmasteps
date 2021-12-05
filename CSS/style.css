@@ -3,7 +3,8 @@
 foundation
 *******************************************/
 body{
-    font-family: 'メイリオ','Hiragino Kaku Gothic Pro', sans-serif
+    font-family: 'メイリオ','Hiragino Kaku Gothic Pro', sans-serif;
+    background: whitesmoke;
 }
 
 /******************************************
@@ -84,6 +85,67 @@ PC用
 /******************************************
 main
 *******************************************/
+/*********************
+BoxLayout----------------
+*********************/
+.box2-A{
+    display: block;
+    clear: both;
+}
+.box2-1{
+    float: left;
+    width: 50%;
+}
+
+.box2-2{
+    float: left;
+    width: 50%;
+}
+.box2-B{
+    display: block;
+    clear: both;
+}
+.box2-3{
+    float: left;
+    width: 50%;
+}
+.box2-4{
+    float: left;
+    width: 50%;
+}
+/*
+スマホ用
+*/
+@media screen and (max-width:768px) {
+    .box2-A{
+        display: block;
+        clear: both;
+    }
+    .box2-1{
+        float: none;
+        width: 100%;
+    }
+    .box2-2{
+        float: none;
+        width: 100%;
+    }
+    .box2-B{
+        display: block;
+        clear: both;
+    }
+    .box2-3{
+        float: none;
+        width: 100%;
+    }
+    .box2-4{
+        float: none;
+        width: 100%;
+    }
+}
+/*********************
+----------------BoxLayout
+*********************/
+
 .po_vet{/*ポートフォリオ・獣医師ゾーン*/
     background-color: lightsalmon;
 }
