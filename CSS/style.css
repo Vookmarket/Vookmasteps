@@ -14,6 +14,10 @@ a{
 a:hover{
     color: blue;
 }
+
+table caption{
+    caption-side: top;
+}
 /******************************************
 header
 *******************************************/
@@ -100,6 +104,9 @@ main
 /*********************
 BoxLayout----------------
 *********************/
+.box2{
+    padding-left: 20px;
+}
 .box2-A{
     display: block;
     clear: both;
@@ -193,6 +200,25 @@ BoxLayout----------------
     padding-right: 10px;
     font-size: 15px;
 }
+
+/***********
+テーブル
+*/
+table caption{
+    font-size: large;
+}
+td{
+    text-align: left;
+    padding: 5px;
+}
+@media screen and (max-width:768px) {
+    th,td{
+        display: block;
+    }
+}
+/*
+テーブル
+***********/
 /******************************************
 footer
 *******************************************/
